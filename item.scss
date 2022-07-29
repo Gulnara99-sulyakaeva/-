@@ -1,0 +1,45 @@
+.item{
+    width: 150px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+    &:hover{
+        border-color: black;
+    }
+
+    & > span {
+        display: block;
+    }
+
+    &_name {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &_price{
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+&_add-button{
+    outline: none;
+    background-color: rgb(164, 170, 189);
+    border: none;
+    padding: 5px;
+    width: 100px;
+}
+&:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+&_img{
+    width: 100px
+    height auto;
+}

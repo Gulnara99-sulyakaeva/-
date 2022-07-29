@@ -1,0 +1,19 @@
+{
+    "flowers":[
+{
+    "id":1,
+    "name": "rose",
+    "price": 1500
+},
+{
+    "id":2,
+    "name": "gypsophila",
+    "price": 700
+},
+{
+    "id":3,
+    "name": "iric",
+    "price": 500
+}
+    ]
+}
